@@ -18,10 +18,10 @@ class Matrix
    Matrix();  // Set rows to MAXROWS and cols to MAXCOLS
 	            // Initialize all the values of doubleArray to zero
     
-   //Getter Functions
+   // Getter Functions
    void printMatrix(); 
 
-   //Setter Functions
+   // Setter Functions
    void setMatrix(int [][MAXCOLS]); // Set the doubleArray to what is sent
    void addMatrix(int [][MAXCOLS]); // Add an array to doubleArray
    void addMatrix(Matrix otherMatrix); // Add a Matrix to doubleArray
